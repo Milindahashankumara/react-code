@@ -1,3 +1,8 @@
-const {vc} = require("./calculator")
+/*const {x} = require("./calculator") // require is inbuild function
 
-vc();
+x();
+*/
+
+const {v4:mili} = require('uuid'); // v4 function name change
+
+console.log(mili());

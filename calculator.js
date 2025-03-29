@@ -1,7 +1,7 @@
 function vc() {
-    console.log("Milinda");
+    console.log("Milinda Hashan");
 }
 
 module.exports = {
-    vc
+    x:vc,
 }
