@@ -1,7 +1,18 @@
-function vc() {
-    console.log("Milinda Hashan");
+function vc1() {
+    console.log("Milinda");
 }
 
-module.exports = {
-    x:vc,
+function vc2() {
+    console.log("Hashan");
 }
+
+export {
+    vc1,  vc2  //as a object
+}
+
+
+
+
+
+
+
